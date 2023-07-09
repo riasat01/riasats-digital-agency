@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    display: flex;
+    background-color: grey;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus ul{
+    display: flex;
+    font-size: 17px;
+    gap: 15px;
+    list-style: none;
+    font-style: italic;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url('./asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: tomato;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    margin: auto;
+    max-width: 50%;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+}
+.btn-color{
+    background-color: tomato;
+    color: white;
+}

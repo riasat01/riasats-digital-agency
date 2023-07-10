@@ -125,3 +125,41 @@
 .author-number{
     font-size: 35px;
 }
+.blog-title{
+    margin: 50px;
+    text-align: center;
+    font-size: 55px;
+}
+.blog-title-sec{
+    color: tomato;
+}
+.blog-description{
+    text-align: center;
+}
+.blog-cards{
+    background-image: url('./asset/image/blog-3.jpg'),linear-gradient(rgba(14,14,14,0.5),rgba(14,14,14,0.5));
+    background-blend-mode: color-burn;
+    padding: 30px 0;
+    margin: 20px 0;
+}
+.card{
+    width: 220px;
+    height: 350px;
+    box-shadow: 4px 4px 4px rgb(93, 16, 209);
+    border-radius: 10px;
+    background-color: white;
+
+}
+.blog-img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card-title{
+    margin: 10px 0;
+}
+.blog-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}

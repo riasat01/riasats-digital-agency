@@ -49,3 +49,60 @@
     background-color: tomato;
     color: white;
 }
+.service-container{
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    /* box-shadow: 4px 4px 8px gray; */
+}
+.service-description{
+    max-width: 50%;
+}
+.box-row{
+    display: flex;
+    gap: 3px;
+    margin-top: 3px;
+}
+.author-img{
+    width: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.btn-round{
+    color: tomato;
+    background-color: white;
+    border-radius: 30px;
+}
+.author-btn{
+    border-left: 2px solid tomato;
+    padding-left: 20px;
+}
